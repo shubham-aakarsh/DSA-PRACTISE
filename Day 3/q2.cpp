@@ -8,15 +8,21 @@ cin>>n;
 
 bool divided=false;
 
-while(i<=n){
-if(n % i = 0){
+while(i<n){
+if(n % i == 0){
 
 divided=true;
 cout<<"this is not prime";
+
 break;
+
 i++;
 }
 else cout<<"this is a prime number.";
+
+
+
+
 
 }
 
